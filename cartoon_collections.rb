@@ -24,4 +24,5 @@ def find_the_cheese(strings_array)
       return sub_array
     end
   end
+  return nil
 end
