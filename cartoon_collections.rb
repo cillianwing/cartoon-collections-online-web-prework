@@ -20,5 +20,8 @@ def find_the_cheese(strings_array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   strings_array.each do |sub_array|
-    sub_array.include
+    sub_array.include do |sub_array2|
+      sub_array == sub_array2
+    end
+  end
 end
