@@ -13,10 +13,8 @@ end
 def long_planeteer_calls(calls_array)
   calls_array.all? do |sub_array|
     if sub_array.length <= 4
-      return FALSE
     end
   end
-  return TRUE
 end
 
 def find_the_cheese# code an argument here
