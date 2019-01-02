@@ -7,7 +7,6 @@ end
 def summon_captain_planet(calls_array)# code an argument here
   calls_array.collect do |sub_array|
     sub_array.upcase[0]
-    sub_array + "!"
   end
 end
 
