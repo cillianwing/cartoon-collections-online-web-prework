@@ -12,8 +12,7 @@ end
 
 def long_planeteer_calls(calls_array)
   calls_array.all? do |sub_array|
-    if sub_array.length <= 4
-    end
+    sub_array.length <= 4
   end
 end
 
